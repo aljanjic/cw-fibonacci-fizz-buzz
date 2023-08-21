@@ -1,7 +1,7 @@
 const fibsFizzBuzz = require('./fibsFizzBuzz');
 
 describe('fibsFizzBuzz', () => {
-  it('5 should return [1,1,2,"Fizz","Buzz"]', () => {
+  it.only('5 should return [1,1,2,"Fizz","Buzz"]', () => {
     expect(fibsFizzBuzz(5)).toStrictEqual([1,1,2,"Fizz","Buzz"]);
   });
 
