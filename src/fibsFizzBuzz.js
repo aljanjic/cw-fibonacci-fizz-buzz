@@ -13,7 +13,7 @@ if ( num === 1) fibonacciArr = [1]
 if (num === 2) fibonacciArr = [1, 1]
 
 if (num > 2){
-  fibonacciArr = [1, 2]
+  fibonacciArr = [1, 1]
   console.log('fibonacciArr length: ', fibonacciArr.length)
 
   for (let i = fibonacciArr.length; i < num; i++){
